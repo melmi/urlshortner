@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class TokenBroker(Protocol):
+    def get_token(self, url: str) -> str: ...
+    def get_url(self, token: str) -> str: ...
