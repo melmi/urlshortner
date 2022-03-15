@@ -1,6 +1,6 @@
-from shortner.domain.services.token_generator import TokenGenerator
-from shortner.domain.boundaries.output.random_generator import RandomGenerator
-from shortner.domain.boundaries.output.token_generator_config import TokenGeneratorConfig
+from domain.services.token_generator import TokenGenerator
+from domain.boundaries.output.random_generator import RandomGenerator
+from domain.boundaries.output.token_generator_config import TokenGeneratorConfig
 
 
 class TokenGenerationService(TokenGenerator):

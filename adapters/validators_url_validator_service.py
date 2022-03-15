@@ -1,5 +1,6 @@
 import validators
-from ..domain.boundaries.output.url_validator import UrlValidator
+
+from domain.boundaries.output.url_validator import UrlValidator
 
 
 class ValidatorsUrlValidatorService(UrlValidator):

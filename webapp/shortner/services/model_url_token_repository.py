@@ -1,6 +1,7 @@
-from ..domain.boundaries.output.urltoken_repository import UrlTokenRepository
-from ..domain.entities.url_token import UrlToken as DomainUrlToken
-from shortner.models import UrlToken
+from domain.boundaries.output.urltoken_repository import UrlTokenRepository
+from domain.entities.url_token import UrlToken as DomainUrlToken
+
+from webapp.shortner.models import UrlToken
 
 
 class ModelUrlTokenRepository(UrlTokenRepository):

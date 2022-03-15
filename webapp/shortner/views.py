@@ -1,11 +1,12 @@
 from dataclasses import asdict, dataclass
 import json
+
 from django.http import HttpResponseBadRequest, HttpResponsePermanentRedirect, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.views import View
 
-from .domain.boundaries.input.token_broker import TokenBroker
+from domain.boundaries.input.token_broker import TokenBroker
 
 
 @dataclass

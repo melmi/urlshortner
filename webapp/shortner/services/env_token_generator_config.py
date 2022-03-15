@@ -1,5 +1,6 @@
 import os
-from ..domain.boundaries.output.token_generator_config import TokenGeneratorConfig
+
+from domain.boundaries.output.token_generator_config import TokenGeneratorConfig
 
 
 class EnvTokenGeneratorConfig(TokenGeneratorConfig):

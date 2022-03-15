@@ -1,5 +1,6 @@
 from django.db import models
-from .domain.entities.url_token import UrlToken as DomainUrlToken
+
+from domain.entities.url_token import UrlToken as DomainUrlToken
 
 
 class UrlToken(models.Model):

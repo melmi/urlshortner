@@ -8,7 +8,7 @@ Everybody knows clean architecture. Numerous people used it in Python before. Th
 
 The entire domain layer is organized into the `domain` folder. It has no dependency on Django or any other library.
 
-I tried everything to be *screaming* obvious.
+The folder structure of the project is different from what Django suggests. It is following *screaming architecture* instead. The Django folder structure is loosely based on what suggested in [Two Scoops of Django 3.x](https://www.feldroy.com/books/two-scoops-of-django-3-x).
 
 I enjoyed using [punq](https://github.com/bobthemighty/punq) as an IoC container. IMHO it is very well designed and does not force itself into every detail of the project.
 

@@ -1,9 +1,9 @@
-from shortner.domain.boundaries.input.token_broker import TokenBroker
-from shortner.domain.boundaries.output.url_validator import UrlValidator
-from shortner.domain.boundaries.output.urltoken_repository import UrlTokenRepository
-from shortner.domain.services.token_generator import TokenGenerator
-from shortner.domain.entities.exceptions import BusinessException, NotFoundException
-from shortner.domain.entities.url_token import UrlToken
+from domain.boundaries.input.token_broker import TokenBroker
+from domain.boundaries.output.url_validator import UrlValidator
+from domain.boundaries.output.urltoken_repository import UrlTokenRepository
+from domain.services.token_generator import TokenGenerator
+from domain.entities.exceptions import BusinessException, NotFoundException
+from domain.entities.url_token import UrlToken
 
 
 class TokenBrokerService(TokenBroker):

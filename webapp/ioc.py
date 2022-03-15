@@ -1,17 +1,17 @@
 import punq
 
-from shortner.domain.boundaries.input.token_broker import TokenBroker
-from shortner.domain.boundaries.output.random_generator import RandomGenerator
-from shortner.domain.boundaries.output.token_generator_config import TokenGeneratorConfig
-from shortner.domain.boundaries.output.url_validator import UrlValidator
-from shortner.domain.boundaries.output.urltoken_repository import UrlTokenRepository
-from shortner.domain.services.token_broker_service import TokenBrokerService
-from shortner.domain.services.token_generation_service import TokenGenerationService
-from shortner.domain.services.token_generator import TokenGenerator
-from shortner.services.default_random_generator_service import DefaultRandomGeneratorService
-from shortner.services.env_token_generator_config import EnvTokenGeneratorConfig
-from shortner.services.validators_url_validator_service import ValidatorsUrlValidatorService
-from shortner.services.model_url_token_repository import ModelUrlTokenRepository
+from domain.boundaries.input.token_broker import TokenBroker
+from domain.boundaries.output.random_generator import RandomGenerator
+from domain.boundaries.output.token_generator_config import TokenGeneratorConfig
+from domain.boundaries.output.url_validator import UrlValidator
+from domain.boundaries.output.urltoken_repository import UrlTokenRepository
+from domain.services.token_broker_service import TokenBrokerService
+from domain.services.token_generation_service import TokenGenerationService
+from domain.services.token_generator import TokenGenerator
+from adapters.default_random_generator_service import DefaultRandomGeneratorService
+from adapters.validators_url_validator_service import ValidatorsUrlValidatorService
+from webapp.shortner.services.env_token_generator_config import EnvTokenGeneratorConfig
+from webapp.shortner.services.model_url_token_repository import ModelUrlTokenRepository
 
 container = punq.Container()
 

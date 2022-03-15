@@ -1,6 +1,6 @@
 from typing import Protocol
 
-from shortner.domain.entities.url_token import UrlToken
+from domain.entities.url_token import UrlToken
 
 
 class UrlTokenRepository(Protocol):

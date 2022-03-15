@@ -1,6 +1,6 @@
 import random
 
-from ..domain.boundaries.output.random_generator import RandomGenerator
+from domain.boundaries.output.random_generator import RandomGenerator
 
 
 class DefaultRandomGeneratorService(RandomGenerator):
